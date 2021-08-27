@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Cores </title>
+        <meta charset="utf-8"/>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial;
+            }
+
+            html {
+                width: 100%;
+                height: 100%;
+            }
+
+            body {
+                width: 500px;
+                height: 500px;
+                margin: 50px;
+            }
+
+            main {
+                padding: 50px;
+            }
+
+            /* Theme 1 */
+            body {
+                --background: white;
+                --h1-color: black;
+                --text-color: black;
+            }
+
+            /* Theme 2 */
+            body {             
+                --background: black;
+                --h1-color: yellow;
+                --text-color: white;
+            }
+
+            main { background-color: var(--background);}
+            h1 { color: var(--h1-color); }
+            p { color: var(--text-color);}
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1> Computador </h1>
+            <p>
+                Computador é um conjunto de componentes eletrônicos (máquina)  capaz de 
+                executar variados tipos de algoritmos e tratamento de informações 
+                (processamento de dados). Um computador pode possuir inúmeros atributos, 
+                dentre eles armazenamento de dados, processamento de dados, cálculo em 
+                grande escala, desenho industrial, tratamento de imagens gráficas, 
+                realidade virtual, entretenimento e cultura.
+            </p>
+            <p> Texto de <a href="https://pt.wikipedia.org/wiki/Computador">wikipedia.org</a> </p>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Display order</title>
+        <meta charset="utf-8"/>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial;
+            }
+
+            body {
+                margin: 50px;
+            }
+
+            /* Reversed list */
+
+            /* ol {
+                display: flex;
+                flex-direction: column-reverse;
+            } */
+
+            /* Shuffled list */
+
+            /* ol {
+                display: grid;
+                grid-template-areas: 'l2' 'l4' 'l1' 'l5' 'l3';
+            }
+            #item1 { grid-area: l1; }
+            #item2 { grid-area: l2; }
+            #item3 { grid-area: l3; }
+            #item4 { grid-area: l4; }
+            #item5 { grid-area: l5; } */
+        </style>
+    </head>
+    <body>
+        <h1>Plano de viagem</h1>
+        <ol>
+            <li id="item1">Definir destino.</li>
+            <li id="item2">Definir data.</li>
+            <li id="item3">Pesquisar preços
+                <ol>
+                    <li>Passagens.</li>
+                    <li>Estadia.</li>
+                    <li>Alimentação.</li>
+                    <li>Locomoção.</li>
+                </ol>
+            </li>
+            <li id="item4">Comprar passagens.</li>
+            <li id="item5">Fazer reservas.</li>
+            <li id="item6">Arrumar as malas.</li>
+        </ol>
+    </body>
+</html>
